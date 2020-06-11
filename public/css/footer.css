@@ -1,0 +1,101 @@
+a:hover{
+    text-decoration:none;
+}
+
+.email {
+    background: url("https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    min-height: 200px;
+    padding: 70px 0px;
+    width:100%;
+}
+
+.email h2, .email p {
+    color: #FFF;
+    font-weight: 600;
+}
+
+#email-adresi {
+    margin-top: 20px;
+    border: none;
+    width:50%;
+    height:40px;
+    padding-left:10px;
+}
+
+.footer {
+    padding:100px 0px;
+	color: #ccc;
+    background-color: #222;
+}
+.footer li a{
+    text-decoration: none;
+}
+
+.footer h3 {
+	color: #FFF;
+	font-size:15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom:20px;
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+
+.footer ul li a {
+	padding: 10px 0px;
+    display: block;
+    color: #ccc;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footer ul li a:hover{
+	color:#1e76a8;
+}
+
+.footer-bottom{
+	background-color: #111;
+    color: #282c2d;
+    font-size: 12px;
+	text-align: center;
+	height:100px;
+    line-height:50px;
+}
+
+.footer-bottom p{
+	font-size:13px;
+	color: #FFF;
+}
+
+.footer-top{
+	background-color:#f39c12;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-top .social-icons{
+   padding:50px 0px;
+}
+
+.footer-top .social-icons i{
+	padding:0px 20px;
+	font-size:20px;
+	color: #fff;
+}
+
+.footer-top .social-icons i:hover{
+	color:#1e76a8;
+}
+
+.logo{
+   color:#FFF;
+   font-size:30px;
+   font-weight:600;
+}

@@ -1,0 +1,74 @@
+
+nav > .nav.nav-tabs{
+
+    border: none;
+      color:#fff;
+      background:#303641;
+      border-radius:0;
+  
+  }
+  nav > div a.nav-item.nav-link,
+  nav > div a.nav-item.nav-link.active
+  {
+    border: none;
+      padding: 12px 25px;
+      color:#fff;
+      background:#303641;
+      border-radius:0;
+  }
+  
+  nav > div a.nav-item.nav-link.active:after
+   {
+    content: "";
+    position: relative;
+    bottom: -47px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #303641 ;
+  }
+  .tab-content{
+      background: #fdfdfd;
+      line-height: 25px;
+      border: 1px solid #ddd;
+     /*  border-top:5px solid #e74c3c;
+      border-bottom:5px solid #e74c3c; */
+     /*  padding:30px 25px; */
+  }
+  
+  nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+      border: none;     
+      color:#fff;
+      border-radius:0;
+      transition:background 0.20s linear;
+  }
+   #basic-tab:hover
+  {
+   /* background:  #e74c3c */
+  }
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .t {
+    
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 11px;
+    color: red;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .iconlink i{
+    cursor: pointer;
+  }
+  
